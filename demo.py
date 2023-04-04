@@ -16,7 +16,7 @@ from matplotlib import pyplot as plt
 # give a name to the model
 model_name = 'soat_'
 # set the number of topic in modeling
-topic_num = 20
+topic_num = 5
 # set the sampling rounds for parameter estimation
 round_num = 5
 # hyperparameter for doc-topic distribution
