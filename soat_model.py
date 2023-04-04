@@ -275,7 +275,7 @@ class SoatTopicModel:
 
         for d in range(len(self.docs_list)):
             d_dist = self.doc_topic_distributions[d]
-            if self.label_list[d] == int(self.docs_list[d][3]):
+            if self.label_list[d] == int(self.docs_list[d][0, 3]):
                 is_pos = 1
             else:
                 is_pos = -1
